@@ -1,0 +1,869 @@
+# Copyright (C) 2019 Rigorous Theme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2019-07-01 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:50
+msgid "Primary"
+msgstr ""
+
+#: functions.php:51
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:52 inc/customizer/top-header-option.php:86
+#: inc/customizer/top-header-option.php:110
+msgid "Social Icon"
+msgstr ""
+
+#: functions.php:113
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:115 functions.php:124
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:122
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:132
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:246 inc/custom-hook/custom-function.php:15
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:758 inc/breadcrumbs.php:787 inc/breadcrumbs.php:814
+#: inc/breadcrumbs.php:841 inc/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:759 inc/breadcrumbs.php:815 inc/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:760 inc/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Barlow, translate this to 'off'. Do not translate into your own language.
+#: inc/custom-hook/custom-function.php:53
+msgctxt "Playfair Display: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Playfair Display, translate this to 'off'. Do not translate into your own language.
+#: inc/custom-hook/custom-function.php:57
+msgctxt "Muli: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Playfair Display, translate this to 'off'. Do not translate into your own language.
+#: inc/custom-hook/custom-function.php:62
+msgctxt "Overpass: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: Search Results.
+#. translators: %s: search query.
+#: inc/custom-hook/custom-function.php:196 search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:198
+msgid "Oops! That page can&#39;t be found."
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:225
+msgid "Prev"
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:226
+msgid "Next"
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:248
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:255
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/custom-hook/custom-function.php:263
+msgid "Elementor Page Builder"
+msgstr ""
+
+#: inc/custom-hook/custom-hook.php:568
+#, php-format
+msgid "Theme of %s"
+msgstr ""
+
+#: inc/custom-hook/custom-hook.php:618
+msgid "Page not found."
+msgstr ""
+
+#: inc/custom-hook/custom-hook.php:620
+msgid "Back to Home."
+msgstr ""
+
+#: inc/custom-hook/structure.php:49
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/banner-section.php:12
+msgid "Banner Setting"
+msgstr ""
+
+#: inc/customizer/banner-section.php:26
+msgid "Enable Banner"
+msgstr ""
+
+#: inc/customizer/banner-section.php:41
+msgid "Select Banner Type"
+msgstr ""
+
+#: inc/customizer/banner-section.php:46
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/banner-section.php:47
+msgid "Banner Slider"
+msgstr ""
+
+#: inc/customizer/banner-section.php:62
+#: inc/customizer/home-page/blog-option.php:77
+#: inc/customizer/home-page/event-option.php:116
+#: inc/customizer/home-page/mission-option.php:96
+#: inc/customizer/repeater-controller/repeater-class.php:159
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/banner-section.php:79
+#: inc/customizer/home-page/blog-option.php:94
+#: inc/customizer/home-page/event-option.php:133
+#: inc/customizer/home-page/mission-option.php:113
+msgid "Select Number"
+msgstr ""
+
+#: inc/customizer/banner-section.php:96
+msgid "Show Title"
+msgstr ""
+
+#: inc/customizer/banner-section.php:112
+msgid "Show Content"
+msgstr ""
+
+#: inc/customizer/banner-section.php:131
+#: inc/customizer/home-page/cta-option.php:61
+#: inc/customizer/home-page/event-option.php:62
+#: inc/customizer/home-page/mission-option.php:78
+#: inc/customizer/home-page/profile-option.php:61
+#: inc/customizer/home-page/promo-option.php:61
+#: inc/customizer/repeater-controller/repeater-class.php:192
+#: inc/customizer/repeater-controller/repeater-class.php:202
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/blog-option.php:13
+#: inc/customizer/home-page/blog-option.php:10
+msgid "Blog Setting"
+msgstr ""
+
+#: inc/customizer/blog-option.php:28
+msgid "Enable Post Meta"
+msgstr ""
+
+#: inc/customizer/blog-option.php:46
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/blog-option.php:51
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/blog-option.php:52
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/control.php:25 inc/customizer/top-header-option.php:83
+#: inc/customizer/top-header-option.php:107
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/default.php:39
+msgid "Donate Now"
+msgstr ""
+
+#: inc/customizer/default.php:92
+msgid "MISSION & VISION"
+msgstr ""
+
+#: inc/customizer/default.php:96 inc/customizer/default.php:112
+msgid "Discover More"
+msgstr ""
+
+#: inc/customizer/default.php:101
+msgid "Meet"
+msgstr ""
+
+#: inc/customizer/default.php:104
+msgid "View Bio"
+msgstr ""
+
+#: inc/customizer/default.php:109
+msgid "OUR VOICE"
+msgstr ""
+
+#: inc/customizer/default.php:117
+msgid "OUR EVENTS"
+msgstr ""
+
+#: inc/customizer/default.php:121
+msgid "View All Event"
+msgstr ""
+
+#: inc/customizer/default.php:126
+msgid "Help Us"
+msgstr ""
+
+#: inc/customizer/default.php:129
+msgid "Became A Member"
+msgstr ""
+
+#: inc/customizer/default.php:134
+msgid "News and Blog"
+msgstr ""
+
+#: inc/customizer/default.php:135
+msgid "step into the news to light"
+msgstr ""
+
+#: inc/customizer/default.php:141
+msgid "DONATE TODAY"
+msgstr ""
+
+#: inc/customizer/default.php:143
+msgid "DONATE Now"
+msgstr ""
+
+#: inc/customizer/feature-section.php:12
+msgid "Information Setting"
+msgstr ""
+
+#: inc/customizer/feature-section.php:26
+msgid "Enable Information"
+msgstr ""
+
+#: inc/customizer/feature-section.php:42
+msgid "Show Information only on home page?"
+msgstr ""
+
+#: inc/customizer/feature-section.php:57
+msgid "Information Background Image"
+msgstr ""
+
+#: inc/customizer/feature-section.php:80
+msgid "Information Options"
+msgstr ""
+
+#: inc/customizer/feature-section.php:82 inc/customizer/feature-section.php:101
+msgid "Information"
+msgstr ""
+
+#: inc/customizer/feature-section.php:83
+msgid "Add Information"
+msgstr ""
+
+#: inc/customizer/feature-section.php:89
+msgid "Enable Icon"
+msgstr ""
+
+#: inc/customizer/feature-section.php:95
+msgid "Icon"
+msgstr ""
+
+#: inc/customizer/feature-section.php:107
+msgid "Information Url"
+msgstr ""
+
+#: inc/customizer/footer-option.php:12
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/customizer/footer-option.php:26
+msgid "Enable Top Footer"
+msgstr ""
+
+#: inc/customizer/footer-option.php:42
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/customizer/footer-option.php:58
+msgid "Footer Aside Image"
+msgstr ""
+
+#: inc/customizer/footer-option.php:74
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/footer-option.php:89
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer/footer-option.php:106
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/footer-option.php:122
+msgid "Enable Back to Top"
+msgstr ""
+
+#: inc/customizer/footer-option.php:138
+msgid "Scroll To Top Icon"
+msgstr ""
+
+#: inc/customizer/general-option.php:13
+msgid "General  Setting"
+msgstr ""
+
+#: inc/customizer/general-option.php:29
+msgid "Sidebar Layout Options"
+msgstr ""
+
+#: inc/customizer/general-option.php:34 inc/metabox.php:89
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/general-option.php:35 inc/metabox.php:90
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/general-option.php:36 inc/metabox.php:91
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/header-option.php:12
+msgid "Header Setting"
+msgstr ""
+
+#: inc/customizer/header-option.php:27
+msgid "Enable Navigation"
+msgstr ""
+
+#: inc/customizer/header-option.php:42
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:59
+msgid "Header Navigation Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:76
+msgid "Navigation Hover Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:95
+msgid "Enable Button"
+msgstr ""
+
+#: inc/customizer/header-option.php:110
+msgid "Button Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:127
+msgid "Button Hover Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:144
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:161
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/customizer/header-option.php:179
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/header-option.php:195
+msgid "Button Url"
+msgstr ""
+
+#: inc/customizer/header-option.php:213
+msgid "Enable Button Icon"
+msgstr ""
+
+#: inc/customizer/header-option.php:231
+msgid "Button Icon"
+msgstr ""
+
+#: inc/customizer/home-option.php:12
+msgid "Front Page Options"
+msgstr ""
+
+#: inc/customizer/home-page/blog-option.php:25
+msgid "Enable Blog Section"
+msgstr ""
+
+#: inc/customizer/home-page/blog-option.php:40
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/home-page/blog-option.php:58
+#: inc/customizer/home-page/cta-option.php:41
+#: inc/customizer/home-page/event-option.php:42
+#: inc/customizer/home-page/mission-option.php:58
+#: inc/customizer/home-page/profile-option.php:41
+#: inc/customizer/home-page/promo-option.php:41
+#: inc/customizer/home-page/video-option.php:57
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer/home-page/cta-option.php:10
+msgid "CTA Setting"
+msgstr ""
+
+#: inc/customizer/home-page/cta-option.php:25
+msgid "Enable CTA Section"
+msgstr ""
+
+#: inc/customizer/home-page/cta-option.php:78
+msgid "CTA Background Image"
+msgstr ""
+
+#: inc/customizer/home-page/cta-option.php:94
+#: inc/customizer/home-page/event-option.php:80
+#: inc/customizer/home-page/mission-option.php:131
+#: inc/customizer/home-page/profile-option.php:94
+#: inc/customizer/home-page/promo-option.php:79
+#: inc/customizer/home-page/video-option.php:108
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer/home-page/cta-option.php:111
+#: inc/customizer/home-page/event-option.php:97
+#: inc/customizer/home-page/mission-option.php:148
+#: inc/customizer/home-page/promo-option.php:96
+#: inc/customizer/home-page/video-option.php:125
+msgid "Button Title Link"
+msgstr ""
+
+#: inc/customizer/home-page/event-option.php:10
+msgid "Event Setting"
+msgstr ""
+
+#: inc/customizer/home-page/event-option.php:25
+msgid "Enable Event Section"
+msgstr ""
+
+#: inc/customizer/home-page/mission-option.php:10
+msgid "Mission Setting"
+msgstr ""
+
+#: inc/customizer/home-page/mission-option.php:25
+msgid "Enable Mission Section"
+msgstr ""
+
+#: inc/customizer/home-page/mission-option.php:40
+msgid "Quote"
+msgstr ""
+
+#: inc/customizer/home-page/profile-option.php:10
+msgid "Profile Setting"
+msgstr ""
+
+#: inc/customizer/home-page/profile-option.php:25
+msgid "Enable profile Section"
+msgstr ""
+
+#: inc/customizer/home-page/profile-option.php:78
+msgid "Profile Background Image"
+msgstr ""
+
+#: inc/customizer/home-page/promo-option.php:10
+msgid "Promo Setting"
+msgstr ""
+
+#: inc/customizer/home-page/promo-option.php:25
+msgid "Enable Promo Section"
+msgstr ""
+
+#: inc/customizer/home-page/video-option.php:10
+msgid "Video Setting"
+msgstr ""
+
+#: inc/customizer/home-page/video-option.php:24
+msgid "Enable Video Section"
+msgstr ""
+
+#: inc/customizer/home-page/video-option.php:39
+msgid "Video Title"
+msgstr ""
+
+#: inc/customizer/home-page/video-option.php:74
+msgid "Video Image"
+msgstr ""
+
+#: inc/customizer/home-page/video-option.php:90
+msgid "Video Url Link"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:143
+msgid "No image selected"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:149
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:150
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:160
+#: inc/customizer/repeater-controller/repeater-class.php:282
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:306
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:307
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/theme-option.php:12
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-option.php:27
+msgid "Choose Option"
+msgstr ""
+
+#: inc/customizer/theme-option.php:32
+msgid "Logo Only"
+msgstr ""
+
+#: inc/customizer/theme-option.php:33
+msgid "Logo + Title"
+msgstr ""
+
+#: inc/customizer/theme-option.php:34
+msgid "Logo + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-option.php:35
+msgid "Title Only"
+msgstr ""
+
+#: inc/customizer/theme-option.php:36
+msgid "Title + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-option.php:51
+msgid "Enable Breadcrumbs"
+msgstr ""
+
+#: inc/customizer/theme-option.php:66
+msgid "Choose Option for Header Image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:67
+msgid ""
+"Featured Image works only in single page and single post.Header image is "
+"display if featured image is not set."
+msgstr ""
+
+#: inc/customizer/theme-option.php:72
+msgid "None"
+msgstr ""
+
+#: inc/customizer/theme-option.php:73
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer/theme-option.php:74
+msgid "Featured Image"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:12
+msgid "Top Header Setting"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:27
+msgid "Enable Top Header"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:42
+msgid "Top Header Background Color"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:59
+msgid "Top Header Text Color"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:77
+msgid "Top Right Header Option"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:84
+#: inc/customizer/top-header-option.php:108
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:85
+#: inc/customizer/top-header-option.php:109
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:101
+msgid "Top Left Header Option"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:125
+msgid "Header Address"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:143
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/top-header-option.php:164
+msgid "Contact Email"
+msgstr ""
+
+#: inc/metabox.php:65
+msgid "Theme Setting"
+msgstr ""
+
+#: inc/metabox.php:86
+msgid "Sidebar Option"
+msgstr ""
+
+#: inc/metabox.php:88
+msgid "Customizer Setting"
+msgstr ""
+
+#: inc/metabox.php:95
+msgid "Enable Title"
+msgstr ""
+
+#: inc/metabox.php:98
+msgid "Enable Comment"
+msgstr ""
+
+#: inc/metabox.php:101
+msgid "Enable Feature Image"
+msgstr ""
+
+#: inc/social-widget.php:32
+msgid "Social Link Widget"
+msgstr ""
+
+#: inc/social-widget.php:34
+msgid "Political: Social Media"
+msgstr ""
+
+#: inc/social-widget.php:108
+msgid "Title:"
+msgstr ""
+
+#: inc/social-widget.php:114
+msgid ""
+"Social menu is not set. Please create menu and assign it to Social Media."
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "On %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:80
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:83
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:23
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:36
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Political"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://rigorousthemes.com/downloads/political"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Political is a clean, sophisticated, versatile and resourceful WordPress "
+"fitness theme for health trainers, yoga instructors, gym coach, lifestyle "
+"coach, fitness trainers, personal trainers, health consultants, "
+"nutritionists, physiotherapists and similar businesses and professionals. It "
+"is a multipurpose theme for hospital, wellness and healthcare WordPress "
+"theme.RT Health is also a responsive theme that compatible for all devices "
+"like smartphone, tablet, laptop, or desktop computer. Work with the most "
+"popular page builders as Elementor, Beaver Builder, Brizy, Visual Composer, "
+"Divi, SiteOrigin, etc..."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rigorous Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rigorousthemes.com/"
+msgstr ""

@@ -1,0 +1,795 @@
+/*
+Theme Name: Political Era
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+
+ul, ol{
+    margin: 0 3em 1.5em 0 ;
+}
+
+li > ul, li > ol{
+    margin-right: 1.5em;
+}
+
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"]{
+    padding: 3px 10px 3px 3px ;
+}
+
+select[name="donate"]{
+    padding-right: 10px;
+}
+
+.main-navigation{
+    float: right;
+}
+
+.main-navigation ul{
+    padding-right: 0;
+}
+
+.main-navigation ul ul{
+    float: right;
+}
+
+.main-navigation ul ul ul{
+    right: 100%;
+}
+
+.main-navigation li{
+    float: right;
+    margin-right: 40px;
+}
+
+.main-navigation ul li.menu-item-has-children{
+    margin-left: 16px;
+}
+
+.menu-item-has-children li{
+    margin-right: 0;
+}
+
+.menu-item-has-children li.menu-item-has-children{
+    margin-left: 0;
+}
+
+.menu-item-has-children li a{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main-navigation .menu-item-has-children::before{
+    right: 100%;
+}
+
+.menu-item-has-children .menu-item-has-children:before{
+    left: auto;
+    right: 100%;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.comment-navigation .nav-previous a, .posts-navigation .nav-previous a, .post-navigation .nav-previous a{
+    padding-right: 30px;
+}
+
+.comment-navigation .nav-next a, .posts-navigation .nav-next a, .post-navigation .nav-next a{
+    padding-left: 30px;
+}
+
+.pagination, #wp-page-numbers, .wp-pagenavi, #main ul.default-wp-page{
+    text-align: right;
+}
+
+.nav-previous{
+    float: right;
+}
+
+.nav-next{
+    float: left;
+}
+
+.nav-links{
+    padding-left: 15px;
+}
+
+.post-navigation .nav-previous a{
+    padding-right: 35px;
+    padding-left: 10px;
+}
+
+.post-navigation .nav-next a{
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.pagination a.prev::before, .pagination a.next::after{
+    left: 0;
+    right: 0;
+}
+
+.nav-previous a::before{
+    right: 0px;
+}
+
+.nav-next a::after{
+    left: 0px;
+}
+
+.pagination ul{
+    padding-right: 0;
+    padding-left: 0;
+    text-align: right;
+}
+
+.screen-reader-text:focus{
+    right: 5px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.aligncenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.widget-title:before{
+    right: 0;
+}
+
+.widget ul li a{
+    padding-right: 0;
+}
+
+.widget.widget_tags ul li, .widget.widget_archive ul li,  .widget.widget_categories ul li{
+    text-align: left;
+    clear: right;
+}
+
+.widget.widget_tags ul li a, .widget.widget_archive li a,  .widget.widget_categories li a{
+    float: right;
+}
+
+.widget_search form input[type=search]{
+    padding-left: 105px;
+}
+
+.widget_search form input[type=submit]{
+    left: 0;
+}
+
+.widget .address ul li a{
+    padding-right: 43px;
+}
+
+.widget .address ul li span.icon-wrap{
+    right: 0;
+}
+
+.wp-caption img[class*="wp-image-"]{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.custom-col-1,  .custom-col-2,  .custom-col-3,  .custom-col-4,  .custom-col-5,  .custom-col-6,  .custom-col-7,  .custom-col-8,  .custom-col-9,  .custom-col-10,  .custom-col-11,  .custom-col-12{
+    padding-right: 15px;
+    padding-left: 15px;
+    float: right;
+}
+
+.back-to-top{
+    left: 30px;
+}
+
+.slick-next{
+    left: 5px;
+}
+
+.slick-prev{
+    right: 5px;
+}
+
+.slick-prev:hover:before{
+    margin-left: 5px;
+}
+
+.slick-next:hover:after{
+    margin-right: 5px;
+}
+
+.slick-dots{
+    text-align: right;
+}
+
+.main-slider .slick-dots{
+    right: 50%;
+}
+
+.main-slider .slick-dots li{
+    float: right;
+    margin: 0 0 0 40px ;
+}
+
+.main-slider .slick-dots li:last-child{
+    margin-left: 0;
+}
+
+.top-header > div ul li{
+    margin-right: 10px;
+}
+
+.top-header > div ul li.menu-item-has-children{
+    margin-left: 15px;
+}
+
+.top-header > div ul li:nth-of-type(1){
+    margin-right: 0;
+}
+
+.top-header .top-header-left{
+    margin-right: auto;
+}
+
+.top-header .contact-info > div{
+    margin-right: 34px;
+}
+
+.top-header .contact-info > div:first-child{
+    margin-right: 0;
+}
+
+.top-header .contact-info div .icon{
+    margin-left: 10px;
+}
+
+.top-header .contact-info div .icon:before,  .top-header .contact-info div .icon:after, .address ul li span.icon-wrap:before, .address ul li span.icon-wrap:after{
+    right: 50%;
+}
+
+.hgroup-wrap{
+    right: 0;
+    border-width: 0 0 1px 0 ;
+}
+
+.hgroup-wrap .navbar{
+    padding-right: 15px;
+}
+
+.donate-now{
+    text-align: left;
+}
+
+.button-donate i{
+    margin-left: 5px;
+}
+
+.main-item .slider-contain{
+    right: 0;
+    left: 0;
+}
+
+.slider-contain-wrap{
+    margin-left: auto;
+}
+
+.slider-contain-wrap:before{
+    right: 0;
+}
+
+.into-part{
+    text-align: left;
+    border-width: 0 0 0 1px ;
+    padding-left: 11px;
+}
+
+.featured-item .icon + a, .featured-item select + a{
+    margin-right: 10px;
+}
+
+.section-quote{
+    float: right;
+}
+
+.section-quote:before, .section-quote:after{
+    right: 20px;
+    left: 20px;
+}
+
+.section-quote:before{
+    border-width: 3px 0px 3px 0px ;
+}
+
+.section-quote:after{
+    border-width: 0px 3px 0px 3px ;
+}
+
+.section-quote + .mission-vision-contain{
+    float: right;
+    padding-right: 30px;
+}
+
+.profile-section .section-wrap{
+    margin-left: auto;
+}
+
+a.popup-video{
+    right: 68px;
+}
+
+a.popup-video span:before{
+    right: 50%;
+}
+
+.event-section .section-intro, .event-section-contain{
+    float: right;
+}
+
+.event-section-contain{
+    padding-right: 30px;
+}
+
+.event-item{
+    margin-right: 15px;
+    float: right;
+}
+
+.event-item:nth-of-type(2n+1){
+    margin-left: 15px;
+    margin-right: 0;
+    clear: right;
+}
+
+.volunteer-section .section-wrap{
+    margin-right: auto;
+}
+
+.blog-wrap .blog-item{
+    float: right;
+}
+
+.blog-item .entry-title{
+    padding-right: 15px;
+}
+
+.section-wrap-left{
+    float: right;
+    padding-left: 30px;
+}
+
+.donation-section figure{
+    float: left;
+}
+
+.donation-section .your-name,  .donation-section .your-email{
+    padding-left: 15px;
+    float: right;
+}
+
+.donation-section .price{
+    padding-right: 15px;
+    float: left;
+}
+
+.donation-section .price .currency{
+    right: 15px;
+}
+
+.donation-section .submit{
+    float: right;
+    text-align: right;
+}
+
+.donation-section .donation-form form input[type=number]{
+    padding-right: 90px;
+}
+
+.product-list-wrapper .image-icon-wrapper:before{
+    right: 0;
+    left: 0;
+}
+
+.product-list-wrapper .image-icon-wrapper .icons{
+    right: 0;
+    left: 0;
+}
+
+.shop-item .price del + ins{
+    margin-right: 7px;
+}
+
+.site-footer .footer-top{
+    background-position: right 95px top;
+}
+
+.site-footer .footer-top:before, .team-fig-icons-wrap:before, .feature-section:before{
+    right: 0;
+    left: 0;
+}
+
+.footer-img{
+    right: 0;
+}
+
+.footer-img:before{
+    right: 0;
+}
+
+.site-footer .footer-widget-holder{
+    margin-right: auto;
+}
+
+.footer-widget-holder .subscribe-form form span{
+    float: right;
+}
+
+.footer-widget-holder .subscribe-form form span.your-email{
+    padding-left: 15px;
+}
+
+.footer-widget-holder .subscribe-form form span.your-zip{
+    padding-right: 15px;
+}
+
+.footer-widget-holder .subscribe-form form span.submit{
+    clear: right;
+}
+
+.footer-widget-holder .subscribe-form form span.submit input[type=submit]{
+    float: right;
+    clear: right;
+}
+
+.page-title-wrap{
+    background-position: center left;
+}
+
+.page-title-wrap .breadcrumbs{
+    right: 0;
+    left: 0;
+    text-align: right;
+}
+
+.page-title-wrap .breadcrumbs ul li{
+    padding-right: 20px;
+    margin-left: 10px;
+}
+
+.page-title-wrap .breadcrumbs ul li:nth-of-type(1){
+    padding-right: 0;
+}
+
+.page-title-wrap .breadcrumbs ul li:before{
+    right: 0;
+}
+
+.bio-section .section-quote{
+    padding-left: 18%;
+}
+
+.bio-data{
+    float: right;
+    padding-right: 18%;
+}
+
+.bio-section .bio-section-main-wrap figure{
+    right: 39%;
+}
+
+.tab-option{
+    margin: 0 0 30px 0 ;
+}
+
+.tab-option li{
+    float: right;
+    margin: 0 0 -1px -1px ;
+}
+
+.history-date .line:before, .history-date .line:after{
+    right: 50%;
+}
+
+.history-date-wrap:before{
+    right: 0;
+}
+
+.history-date-wrap .slick-prev{
+    right: 0;
+}
+
+.history-date-wrap .slick-next{
+    left: 0;
+}
+
+.cta-section .section-wrap{
+    margin-right: auto;
+}
+
+.cta-section > figure{
+    right: 0;
+}
+
+.gallery-wrap .gallery-item{
+    float: right;
+}
+
+.gallery-wrap .gallery-item:nth-of-type(3n+1){
+    clear: right;
+}
+
+.gallery-wrap .gallery-item figure:before,  .gallery-wrap .gallery-item figure:after, .promise-item .overlay:before, .promise-item .overlay:after{
+    right: 15px;
+    left: 15px;
+}
+
+.gallery-wrap .gallery-item figure:before{
+    border-width: 2px 0 2px 0 ;
+}
+
+.promise-item .overlay:before{
+    border-width: 1px 0 1px 0 ;
+}
+
+.gallery-wrap .gallery-item figure:after{
+    border-width: 0 2px 0 2px ;
+}
+
+.promise-item .overlay:after{
+    border-width: 0 1px 0 1px ;
+}
+
+.gallery-wrap .gallery-item .overlay, .promise-item .overlay{
+    right: -100%;
+}
+
+.gallery-wrap .gallery-item .overlay a, .promise-item .overlay a{
+    right: 50%;
+}
+
+.about-us-tab .tab-description ul li{
+    padding-right: 30px;
+    float: right;
+}
+
+.about-us-tab .tab-description ul li:before{
+    right: 0;
+}
+
+.promise-wrap .promise-item{
+    float: right;
+}
+
+.promise-wrap .promise-item:nth-of-type(3n+1){
+    clear: right;
+}
+
+.promise-item .entry-title:before{
+    margin-left: 10px;
+}
+
+.promise-item .entry-title:after{
+    right: 0;
+}
+
+.about-us-video-section a{
+    right: 0;
+}
+
+.team-item{
+    float: right;
+}
+
+.team-item:nth-of-type(4n+1){
+    clear: right;
+}
+
+.team-fig-icons-wrap .social-links{
+    right: -5px;
+}
+
+.team-item:hover .team-fig-icons-wrap .social-links, .team-item:hover .team-fig-icons-wrap:before{
+    right: 0;
+}
+
+.promise-detail-wrap .tab-option{
+    float: right;
+}
+
+.promise-detail-wrap .tab-content-wrap{
+    float: right;
+    padding-right: 30px;
+}
+
+.promise-detail-wrap .promise-item .entry-title{
+    padding-right: 80px;
+}
+
+.promise-detail-wrap .promise-item .entry-title:before{
+    right: 0;
+}
+
+.select-input-wrap{
+    text-align: left;
+}
+
+.volunteer-item{
+    float: right;
+}
+
+.volunteer-item:nth-of-type(4n+1){
+    clear: right;
+}
+
+.event-listing-wrap .event-item .post-cat-list, .event-detail-wrap .event-item .post-cat-list{
+    margin-left: 35px;
+}
+
+.events-countdown > div{
+    margin: 0 0 0 -1px ;
+}
+
+.events-countdown .count-period{
+    margin-left: 5px;
+}
+
+.event-detail-wrap .event-item figure{
+    text-align: right;
+}
+
+.contact-wrap .form-wrap .form span{
+    clear: right;
+}
+
+.contact-wrap .form-wrap .form .form-control-wrap:before{
+    right: 0;
+}
+
+.contact-wrap .form .form-control-wrap input, .contact-wrap .form textarea{
+    padding: 0 100px 0 20px ;
+}
+
+.contact-wrap input[type=submit]{
+    float: left;
+    clear: right;
+}
+
+.widget-area{
+    float: left;
+}
+
+.widget-area-left{
+    float: right;
+}
+
+.global-layout-right_sidebar #primary{
+    float: right;
+    margin-left: 30px;
+}
+
+.global-layout-left_sidebar #primary{
+    float: left;
+    margin-right: 30px;
+}
+
+.donate-now-section .section-description{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.give-donation-levels-wrap button{
+    margin: 0 10px 10px 10px ;
+}
+
+.donar-info-form-wrap form .form-control-wrap{
+    margin-left: -4px;
+}
+
+.both-sidebar .blog-wrap .blog-item{
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.both-sidebar .blog-wrap .blog-item figure{
+    text-align: right;
+}
+
+.comment-body ol{
+    margin-right: 110px;
+}
+
+.comment-box{
+    padding-right: 110px;
+}
+
+.comment-box figure{
+    right: 0;
+}
+
+.name-date span{
+    margin-right: 5px;
+    padding-right: 8px;
+}
+
+.name-date span:before{
+    right: 0;
+}
+
+.comments a{
+    padding-right: 20px;
+}
+
+.comments a:before{
+    right: 0;
+}
+
+.comment-form .comment-form-cookies-consent input{
+    margin-left: 5px;
+}
+
+.comment-form-comment, .comment-form-author, .comment-form-email, .comment-form-url{
+    float: right;
+}
+
+.comment-form-comment{
+    padding-left: 15px;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url{
+    padding-right: 15px;
+}
+
+.comment-form-cookies-consent{
+    clear: right;
+}
+
+.comment-form .form-submit{
+    text-align: left;
+}
+
+.logged-in .comment-form-comment{
+    padding-left: 0;
+}
+
+.search-no-results .search-form input[type=submit]{
+    left: 0;
+}
+
+

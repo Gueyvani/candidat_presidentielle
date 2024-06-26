@@ -1,0 +1,170 @@
+.banner-section .banner-heading,.event-section .heading-1,.event-section .para-2,.event-section .day-count,
+.event-section .day-text,.event-section .tick-section,.event-section .timer,.event-section .list-items,.event-section .heading-1,
+.event-section .heading-2{
+    margin: 0;
+}
+.banner-section p,.event-section .para1,.event-main-section{
+    margin-top: 5px !important;
+}
+.banner-section .banner-heading,.banner-section .banner-btn a,.event-section .day-count{
+    font-weight: 700;
+}
+.event-section .heading-1,.event-section .heading-2, .event-section .tick-text,.event-section .day-text{
+    font-weight: 600;
+}
+.event-section .para-1,.event-section .para-2, .event-section .tick-para{
+    font-weight: 400;
+}
+.banner-section img{
+    border-radius: 20px;
+}
+.banner-section .wp-block{
+    margin: 0 auto;
+}
+.banner-section .banner-left{
+    margin-top: -5% !important;
+    text-align: left;
+    left: 14%;
+    right: 48%;
+    position: absolute;
+}
+.banner-section .banner-heading{
+    color: #fff !important;
+}
+.banner-section .small-text{
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+.banner-section .banner-btn .wp-element-button{
+    padding: 10px 15px 10px 15px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.banner-section .banner-btn .wp-element-button:after{
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    bottom: 15%;
+    left: 5%;
+    color: #fff;
+    background-color: #000;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-weight: 900;
+    transform: translateX(-50%);
+}
+.banner-section .banner-btn .wp-element-button:hover{
+    background-color: #DD131A !important;
+    color: #fff !important;
+}
+.banner-section .banner-btn .wp-element-button:hover:after{
+    background-color: #fff;
+    color:#DD131A ;
+}
+/* event-section*/
+.event-section{
+    max-width: 1200px;
+}
+.event-section .tick-icon{
+    flex-basis: 25% !important;
+}
+.event-section .tick-icon textarea{
+    height: 100px !important;
+}
+.event-section .tick-text{
+    flex-basis: 75% !important;
+}
+.event-section .tick-icon i{
+    background: #DD131A;
+    color: #fff;
+    padding: 4px 4px;
+    font-size: 10px;
+    margin-right: 10px;
+ }
+ .event-section .tick-section{
+    gap: 1em;
+ }
+ .event-section .day-count{
+    border-radius: 10px 10px 0 0;
+    border: 2px solid #DBDBDB;
+ }
+ .event-section .day-text{
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid #021460;
+ }
+ .event-section .day-count,.event-section .day-text{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #fff;
+ }
+ .event-section .day{ 
+    border-radius: 10px;
+ }
+ .timer:not(.is-not-stacked-on-mobile)>.day{
+    flex-basis: 20% !important;
+ }
+ .event-section .post-list{
+    margin-top: 20px !important;
+ }
+.event-main-section{
+    overflow-y: scroll;
+    direction: rtl;
+    height: 375px;
+    padding-left: 20px !important;
+    background: #fff;
+    padding: 20px 10px 20px 0;
+    border-radius: 25px;
+    border: 1px solid #EDEDED;
+}
+.event-main-section li{
+    direction: ltr;
+}
+.event-main-section time,.event-main-section a{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+.event-main-section a{   
+    text-decoration: none;
+    font-family: 'Barlow';
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+.event-main-section a,.event-main-section time{
+    font-weight: 500;
+}
+.event-main-section time{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.event-main-section time:before{
+    content: "\f073";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    left: 3%;
+    margin-right: 10px;
+    color: #DD131A;
+    font-weight: 900;
+    transform: translateX(-50%);
+}
+.event-main-section img{
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+}
+.event-main-section .wp-block-latest-posts__featured-image{
+    margin: 0 10px 0 0 !important;
+}
+/* Width of the scrollbar */  
+  .event-section ::-webkit-scrollbar {
+    width: 6px; 
+  }
+  .event-section ::-webkit-scrollbar-track {
+    background-color: #91888859;
+    border-radius: 10px;  
+ }
+  .event-section ::-webkit-scrollbar-thumb {
+    background-color: #DD131A;  
+    border-radius: 10px;  
+ }
